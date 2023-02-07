@@ -1,5 +1,12 @@
 /* This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp> */
 
+
+
+.ss{
+    display: flex;
+    justify-content: space-between;
+
+}
 /*make divs in a row*/
 .ib {
     display: flex;
