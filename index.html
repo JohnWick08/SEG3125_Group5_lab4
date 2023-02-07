@@ -35,17 +35,18 @@
         <h1>Book a Service</h1>
         <form  class="needs-validation" id = "myForm">
 
-            <div class="form-group row">
-                <div class="col-xs-2">
-                    <label for="ex1">Full Name</label>
-                    <input class="form-control" id="in1" type="text" required>
+            <div class="row">
+                <div class="col-25">
+                    <label for="frame">Full Name</label>
+                
+                    <input class="form-control" id="frame" type="text" required>
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
             </div>
 
-            <div class="form-group row">
-                <div class="col-xs-2">
+            <div class="row">
+                <div class="col-25">
                     <label for="ex1">Email</label>
                     <input class="form-control" id="in2" type="email" required>
                     <div class="valid-feedback">Valid.</div>
@@ -53,8 +54,8 @@
                 </div>
             </div>
 
-            <div class="form-group row">
-                <div class="col-xs-2">
+            <div class="row">
+                <div class="col-25">
                     <label for="ex1">telephone</label>
                     <input class="form-control" id="in3" type="number" required>
                     <div class="valid-feedback">Valid.</div>
@@ -62,8 +63,8 @@
                 </div>
             </div>
             
-            <div class="form-group row">
-                <div class="col-xs-2">
+            <div class="row">
+                <div class="col-25">
                     <label for="ex1">Date</label>
                     <input class="form-control" id="in4" type="date" required>
                     <div class="valid-feedback">Valid.</div>
@@ -71,17 +72,17 @@
                 </div>
             </div>
 
-            <div class="form-group row">
-                <div class="col-xs-2">
+            <div class="row">
+                <div class="col-25">
                     <label for="ex1">Time</label>
                     <input class="form-control" id="in5" type="time" required>
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                 </div>
             </div>
-            <div class="form-group row">
-                <div class="col-xs-2">
-                <label for="sel1">Employee:</label>
+            <div class="row">
+                <div class="col-25">
+                <label for="sel1">Staff:</label>
                     <select class="form-control" id="sel1">
                         <option>John</option>
                         <option>Jenny</option>
@@ -89,7 +90,22 @@
                     </select>
                 </div>
             </div>
-            <input class="form-control" id="in6" type="submit" onclick ="checkIt()"/>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="sel1">Service:</label>
+                    <select class="form-control" id="sel1">
+                        <option>John</option>
+                        <option>Jenny</option>
+                        <option>Mike</option>
+                    </select>
+                </div>
+            </div>
+            <div class = "row">
+                <div class="col-25">
+                    <input class="form-control" id="in6" type="submit" onclick ="checkIt()"/>
+                </div>
+            </div>
         </form>
         
     </div>
