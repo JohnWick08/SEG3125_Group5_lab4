@@ -15,12 +15,14 @@
 
     <!-- Tab links, each one with an onclick event associated with it -->
     <div class = "ss">
-        <h1>logo</h1>
+        <img src="img/logo.png">
+
         <div class="tab">
-            <button class="tablinks" onclick="openInfo(event, 'employees')">Employees</button>
             <button class="tablinks" onclick="openInfo(event, 'contactUs')">Contact Us</button>
+            <button class="tablinks" onclick="openInfo(event, 'employees')">Employees</button>
             <button class="tablinks" onclick="openInfo(event, 'bookService')">Book a Service</button>
             <button class="tablinks" onclick="openInfo(event, 'services')">Services</button>
+            <button class="tablinks" style="color: cornflowerblue; font-family: sans-serif" onclick="openInfo(event, 'services')">GVK's Bicycle Repair Store</button>
         </div>
     </div>
 
@@ -111,8 +113,52 @@
     </div>
 
     <div id="employees" class="tabcontent">
-        <h1>Here are the employees</h1>
+        <h1> Meet our employees</h1>
+
+        <div class="container p-3">
+
+            <div class="card-columns">
+                <div class="card bg-warning" style="width:350px">
+                    <img class="card-img-top" src="img/staff1.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h2 class="card-title">Mike</h2>
+                        <info class="card-text">Mike is the owner of the GVK's Bike Repair shop.</info><br>
+                        <a href="#profile1" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                        <div id="profile1" class="collapse p-3">
+                            <profile>Mike has been repairing bike for 20 years.</profile>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-success" style="width:350px">
+                    <img class="card-img-top" src="img/staff3.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h2 class="card-title">Jenny</h2>
+                        <info class="card-text">Electric bike repair specialist</info><br>
+                        <!-- collapsible part -->
+                        <a href="#profile2" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                        <div id="profile2" class="collapse p-3">
+                            <profile>Mechanical engineer, can repair electric bicycles</profile>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-danger" style="width:350px">
+                    <img class="card-img-top" src="img/staff2.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                        <h2 class="card-title">John</h2>
+                        <info class="card-text">Bike repair specialist</info><br>
+                        <!-- collapsible part -->
+                        <a href="#profile3" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                        <div id="profile3" class="collapse p-3">
+                            <profile>John has more than 10 years on bike repairing. </profile>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </div>
+
 
     <div id="contactUs" class="tabcontent">
         <h1>Contact Us</h1>

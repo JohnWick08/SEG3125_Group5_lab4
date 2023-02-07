@@ -90,8 +90,19 @@ h3 {
 }
 
 p {
-    font-size: 150%;
+    font-size: 100%;
 }
+info{
+    font-size: 60%;
+    font-family: "Gill Sans", sans-serif;
+
+}
+profile{
+    font-size: 40%;
+    font-family: "Gill Sans", sans-serif;
+
+}
+
 
 div {
     font-size: 120%;
