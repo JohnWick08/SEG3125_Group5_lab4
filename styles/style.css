@@ -86,6 +86,18 @@ h3 {
 
 }
 
+.h4 {
+    font-family: cursive;
+}
+
+.h5 {
+    font-family: cursive;
+}
+
+.h6 {
+    font-family: cursive;
+}
+
 p {
     font-size: 100%;
 }
